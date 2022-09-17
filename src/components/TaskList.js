@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux' /* asi se trae los datos*/
 import { deleteTask } from '../features/task/taskSlice';
+import { Link } from 'react-router-dom'
 
 export const TaskList = () => {
 
@@ -15,6 +16,13 @@ export const TaskList = () => {
 
     return (
         <>
+            <header>
+                <h1>Tasks {tasks.length} </h1>
+                <Link to='/create-task'>
+                Create Task
+                </Link>
+            </header>
+
             {tasks.map(task => (
                 <div key={task.id}>
                     <h3>{task.title}</h3>
