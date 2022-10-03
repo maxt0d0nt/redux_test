@@ -1,4 +1,4 @@
-# Test of Redux :microscope: [![My Skills](https://skills.thijs.gg/icons?i=react,tailwind&theme=light)](https://skills.thijs.gg)
+# Test of Redux :microscope: [![My Skills](https://skills.thijs.gg/icons?i=react,redux,tailwind&theme=light)](https://skills.thijs.gg)
 This project is a test of redux, a task list on react with tailwind
 
 The test is on JEST and React testing library, using: 
